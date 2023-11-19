@@ -1,0 +1,318 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daffodil International University</title>
+    <link rel="icon" type="images/x-icon" href="images/unnamed (1).png">
+    <style>
+        .table{
+            background-color: rgb(160, 237, 157);
+            color: rgb(21, 149, 213);
+            text-align: center;
+            width: 100%;
+        }
+        .form{
+            background-color: rgb(229, 243, 248);
+            color: rgb(25, 193, 171);
+        }
+        .reg{
+            background-color: rgb(10, 230, 128);
+            color: rgb(252, 252, 252);
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <th style="width: 10%;"><img src="images/unnamed (1).png" alt="BD" width="80%"></th>
+            <th style="width: 80%;">
+                <h1>Daffodil International University</h1>
+                <h3>Ministry of Education</h3>
+                <p>Birulia Savar,Dhaka-1340</p>
+                <p><a href="http://www.diu.edu.bd" >www.diu.edu.bd</a></p>
+            </th>
+            <th style="width: 10%;"></th>
+        </tr>
+    </table>
+    
+    <h1 style=text-align:center class="reg">Application Form</h1>
+
+    <form action="a.html">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <table>
+                <tr>
+                    <td style=text-align:left>
+                        Name
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" id="name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Student ID
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="number" placeholder="ID" id="id" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Father's Name
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Father's Name" id="Father"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mother's Name
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Mother's Name" id="mother"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of Birth
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="date" id="DoB"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="number" min="18" max="65" id="age"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Country
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Bangladesh" id="Country"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Division
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <select id="Division" name="Division" >
+                                <option value="Select Option">Select Option</option>
+                            <optgroup label="Bangladesh">
+                                
+                                <option value="Khulna">Khulna</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Chittagang">Chittagang</option>
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Mymensingh">Mymensingh</option>
+                                <option value="Barisal">Barisal</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="radio" id="gender" name="fav_language" value="Male" />
+                        <label for="Male">Male</label>
+                        <input type="radio" id="gender" name="fav_language" value="Female" />
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mobile
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <select id="Code" name="code">
+                            <option value="Select Code">Select Code</option>
+                            <option value="880">+880</option> 
+                            <option value="61">+61</option>
+                            <option value="55">+55</option>
+                            <option value="91">+91</option>
+                            <option value="1">+1</option>
+                            <option value="93">+93</option>
+                            <option value="81">+81</option>
+                            <option value="82">+82</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="phone" placeholder="01884429783"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E-mail
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="email" placeholder="partha@diu.edu.bd"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <textarea rows="5" cols="30" placeholder="Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name of the Department
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="radio" id="ICT" name="dep" value="ICT"/>
+                        <label for="CSE">CSE</label>
+                        <input type="radio" id="WEB" name="dep" value="WEB"/>
+                        <label for="Mechanical">Mechanical</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name of the Subject
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <p>2nd Semister </p>
+                        <input type="checkbox" id="CSE" name="fav_language[]" value="CSE"/>
+                        <label for="Computer Fundamentals"> Computer Fundamentals </label><br>
+
+                        <input type="checkbox" id="PHP" name="fav_language[]" value="PHP"/>
+                        <label for="PHP"> PHP</label><br>
+
+                        <input type="checkbox" id="Data Science " name="fav_language[]" value="Data Science "/>
+                        <label for="Data Science ">Data Science </label><br>
+
+                        <input type="checkbox" id=" Web Development" name="fav_language[]" value="Web Development"/>
+                        <label for=" Web Development">  Web Development</label><br>
+
+                        <input type="checkbox" id="Troubleshooting" name="fav_language[]" value="Troubleshooting"/>
+                        <label for="Troubleshooting"> Troubleshooting</label><br>
+
+                        <input type="checkbox" id=" English" name="fav_language[]" value=" English"/>
+                        <label for=" English">English</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Keyword
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="keyword" placeholder="keyword" id="keyword">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Picture
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="file" name="image" id="image"/>
+                    </td>
+                </tr>
+                
+            </table>
+        
+            <p class="reg" style=text-align:center>
+                <input type="submit" value="Submit"> 
+                <input type="reset" value="Reset"> </p>
+        </fieldset>
+    </form>
+    <script>
+        document.getElementById("takevalue").addEventListener("submit", function (e) {
+            e.preventDefault();
+    
+            // Get values from form fields
+            var name = document.getElementById("name").value;
+            var id = document.getElementById("id").value;
+            var Father = document.getElementById("Father").value;
+            var mother = document.getElementById("mother").value;
+            var DoB = document.getElementById("DoB").value;
+            var age = document.getElementById("age").value;
+            var Nationality = document.getElementById("Country").value; // Corrected ID
+            var Division = document.getElementById("Division").value;
+            var gender = document.querySelector('input[name="fav_language"]:checked').value; // Capture the selected gender
+            var phoneCode = document.getElementById("Code").value;
+            var phoneNumber = document.getElementById("phone").value; // Corrected ID
+            var email = document.getElementById("email").value;
+            var address = document.querySelector('textarea').value; // Use querySelector for the textarea
+            var department = document.querySelector('input[name="dep"]:checked').value; // Capture the selected department
+    
+            // Display captured data
+            document.write("Name: " + name + "<br>");
+            document.write("Student ID: " + id + "<br>");
+            document.write("Father's Name: " + Father + "<br>");
+            document.write("Mother's Name: " + mother + "<br>");
+            document.write("Date of Birth: " + DoB + "<br>");
+            document.write("Age: " + age + "<br>");
+            document.write("Nationality: " + Nationality + "<br>");
+            document.write("Division: " + Division + "<br>");
+            document.write("Gender: " + gender + "<br>");
+            document.write("Phone Number: " + phoneCode + phoneNumber + "<br>");
+            document.write("E-mail: " + email + "<br>");
+            document.write("Address: " + address + "<br>");
+            document.write("Name of the Department: " + department + "<br>");
+    
+            // You can add more logic for handling the subjects and password if needed.
+            </script>
+    
+
+</body>
+</html>
